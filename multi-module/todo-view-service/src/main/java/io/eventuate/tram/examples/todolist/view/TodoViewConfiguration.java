@@ -18,10 +18,10 @@ import java.net.InetAddress;
 @Import({TramConsumerKafkaConfiguration.class})
 public class TodoViewConfiguration {
 
-  @Value("${elasticsearch.host}")
+  @Value("52.179.97.85")
   private String elasticSearchHost;
 
-  @Value("${elasticsearch.port}")
+  @Value(9300)
   private int elasticSearchPort;
 
   @Bean

@@ -21,7 +21,7 @@ public class TodoViewConfiguration {
   @Value("52.179.97.85")
   private String elasticSearchHost;
 
-  @Value(9300)
+  @Value("9300")
   private int elasticSearchPort;
 
   @Bean
